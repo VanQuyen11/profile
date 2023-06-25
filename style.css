@@ -10,18 +10,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-style{
-  div {
-    background: url("images/background.png") no-repeat;
-    background-size: cover;
-    border: 1px solid #000099;
-    height: 300px;
-    width: 500px;
-}
-}
+
 body {
   height: 100vh;
-  background: linear-gradient(45deg, #00853e, #50c878);
+  background: linear-gradient(45deg, #7fc1e5, #d8e394, #f2726a);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,3 +93,11 @@ button {
 button:hover {
   background-color: var(--pink-color);
 }
+
+@media all and (min-width: 320px) {…<span style="line-height: 1.5;">}</span>
+
+@media all and (min-width: 600px) {…}
+
+@media all and (min-width: 1024px) {…}
+
+@media all and (min-width: 1280px) {…}
